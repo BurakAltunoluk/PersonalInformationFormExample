@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6013D31C289A916300F73840 /* AllContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013D31B289A916300F73840 /* AllContact.swift */; };
+		60AAC1932899113B00505C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAC1922899113B00505C0A /* AppDelegate.swift */; };
+		60AAC1952899113B00505C0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAC1942899113B00505C0A /* SceneDelegate.swift */; };
+		60AAC1972899113B00505C0A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAC1962899113B00505C0A /* MainVC.swift */; };
+		60AAC19A2899113B00505C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AAC1982899113B00505C0A /* Main.storyboard */; };
+		60AAC19C2899113D00505C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AAC19B2899113D00505C0A /* Assets.xcassets */; };
+		60AAC19F2899113D00505C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AAC19D2899113D00505C0A /* LaunchScreen.storyboard */; };
+		60AAC1AA2899158100505C0A /* Personalinfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAC1A92899158100505C0A /* Personalinfomation.swift */; };
+		60AAC1AE289934BC00505C0A /* ContactInfoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AAC1AD289934BC00505C0A /* ContactInfoListCollectionViewCell.swift */; };
+		60C93D712899D4B300D16C81 /* ContactInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C93D702899D4B300D16C81 /* ContactInfoVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6013D31B289A916300F73840 /* AllContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContact.swift; sourceTree = "<group>"; };
+		60AAC18F2899113B00505C0A /* Personel Info form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personel Info form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AAC1922899113B00505C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60AAC1942899113B00505C0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60AAC1962899113B00505C0A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		60AAC1992899113B00505C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60AAC19B2899113D00505C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60AAC19E2899113D00505C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60AAC1A02899113D00505C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AAC1A92899158100505C0A /* Personalinfomation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalinfomation.swift; sourceTree = "<group>"; };
+		60AAC1AD289934BC00505C0A /* ContactInfoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoListCollectionViewCell.swift; sourceTree = "<group>"; };
+		60C93D702899D4B300D16C81 /* ContactInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60AAC18C2899113B00505C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60AAC1862899113B00505C0A = {
+			isa = PBXGroup;
+			children = (
+				60AAC1912899113B00505C0A /* Personel Info form */,
+				60AAC1902899113B00505C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60AAC1902899113B00505C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60AAC18F2899113B00505C0A /* Personel Info form.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60AAC1912899113B00505C0A /* Personel Info form */ = {
+			isa = PBXGroup;
+			children = (
+				60AAC1A02899113D00505C0A /* Info.plist */,
+				60AAC1922899113B00505C0A /* AppDelegate.swift */,
+				60AAC1942899113B00505C0A /* SceneDelegate.swift */,
+				60AAC19B2899113D00505C0A /* Assets.xcassets */,
+				60AAC1A82899139B00505C0A /* View */,
+				60AAC1A72899138C00505C0A /* Controller */,
+				60AAC1A62899138300505C0A /* Model */,
+			);
+			path = "Personel Info form";
+			sourceTree = "<group>";
+		};
+		60AAC1A62899138300505C0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60AAC1A92899158100505C0A /* Personalinfomation.swift */,
+				6013D31B289A916300F73840 /* AllContact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60AAC1A72899138C00505C0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60AAC1962899113B00505C0A /* MainVC.swift */,
+				60C93D702899D4B300D16C81 /* ContactInfoVC.swift */,
+				60AAC1AD289934BC00505C0A /* ContactInfoListCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60AAC1A82899139B00505C0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60AAC1982899113B00505C0A /* Main.storyboard */,
+				60AAC19D2899113D00505C0A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60AAC18E2899113B00505C0A /* Personel Info form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AAC1A32899113D00505C0A /* Build configuration list for PBXNativeTarget "Personel Info form" */;
+			buildPhases = (
+				60AAC18B2899113B00505C0A /* Sources */,
+				60AAC18C2899113B00505C0A /* Frameworks */,
+				60AAC18D2899113B00505C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personel Info form";
+			productName = "Personel Info form";
+			productReference = 60AAC18F2899113B00505C0A /* Personel Info form.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60AAC1872899113B00505C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					60AAC18E2899113B00505C0A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 60AAC18A2899113B00505C0A /* Build configuration list for PBXProject "Personel Info form" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60AAC1862899113B00505C0A;
+			productRefGroup = 60AAC1902899113B00505C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60AAC18E2899113B00505C0A /* Personel Info form */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60AAC18D2899113B00505C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AAC19F2899113D00505C0A /* LaunchScreen.storyboard in Resources */,
+				60AAC19C2899113D00505C0A /* Assets.xcassets in Resources */,
+				60AAC19A2899113B00505C0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60AAC18B2899113B00505C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AAC1972899113B00505C0A /* MainVC.swift in Sources */,
+				60AAC1932899113B00505C0A /* AppDelegate.swift in Sources */,
+				60AAC1952899113B00505C0A /* SceneDelegate.swift in Sources */,
+				60AAC1AA2899158100505C0A /* Personalinfomation.swift in Sources */,
+				6013D31C289A916300F73840 /* AllContact.swift in Sources */,
+				60AAC1AE289934BC00505C0A /* ContactInfoListCollectionViewCell.swift in Sources */,
+				60C93D712899D4B300D16C81 /* ContactInfoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60AAC1982899113B00505C0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60AAC1992899113B00505C0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60AAC19D2899113D00505C0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60AAC19E2899113D00505C0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60AAC1A12899113D00505C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60AAC1A22899113D00505C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60AAC1A42899113D00505C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2HYM77JZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Personel Info form/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burakaltunoluk.personelinfoform.Personel-Info-form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		60AAC1A52899113D00505C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2HYM77JZB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Personel Info form/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burakaltunoluk.personelinfoform.Personel-Info-form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60AAC18A2899113B00505C0A /* Build configuration list for PBXProject "Personel Info form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AAC1A12899113D00505C0A /* Debug */,
+				60AAC1A22899113D00505C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60AAC1A32899113D00505C0A /* Build configuration list for PBXNativeTarget "Personel Info form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AAC1A42899113D00505C0A /* Debug */,
+				60AAC1A52899113D00505C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60AAC1872899113B00505C0A /* Project object */;
+}
